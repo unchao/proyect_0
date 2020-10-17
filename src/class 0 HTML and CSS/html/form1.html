@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sp">
+  <head>
+    <title>Form1</title>
+  </head>
+  <body>
+      <form>
+
+          <div>
+              <input name="nombre" type="text" placeholder="nombre">
+              <input name="contraseña" type="password" placeholder="contraseña">
+          </div>
+
+          <div>
+              Favorite Color?
+              <li><input name="color" type="radio" value="rojo"> Rojo </li>
+              <li><input name="color" type="radio" value="verde"> Verde </li>
+              <li><input name="color" type="radio" value="azul"> Azul </li>
+              <li><input name="color" type="radio" value="otro"> Otro </li>
+          </div>
+
+          <div>
+              <input name="country" list="countries" placeholder="Country">
+              <datalist id="countries">
+                <option value="Argentina">
+                </option><option value="Chile">
+                </option><option value="Uruguay">
+                </option><option value="Brasil">
+                </option><option value="Bolivia">
+                </option><option value="Paraguay">
+                </option></datalist>
+
+        </div>
+      </form>
+  </body>
+</html>
